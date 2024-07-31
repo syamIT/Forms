@@ -1,0 +1,102 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .button{
+            width: auto;
+            background-color: #0a0791;
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 4px;
+            display: block;
+            cursor: pointer;
+            margin: 0 auto; 
+        }
+    </style>
+</head>
+<body>
+    <h2 align="center">Class Registration</h2>
+    <fieldset>
+        <legend><b>Register</b></legend>
+    <label for="name"><b>Student Name</b></label><br><br>
+    <input type="text" id="name" autofocus placeholder="First Name">
+    <input type="text" id="name" placeholder="Middle Name">
+    <input type="text" id="name" placeholder="Last Name">
+
+    <br><br>
+<label for=""><b>Gender</b></label><br><br>
+<select name="gender" id="gender">
+    <option value="">-- Please Select --</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="others">Others</option>
+</select><br><br>
+<label for="email"><b>Student E-mail</b></label><br><br>
+<input type="email" id="email" placeholder="example@gmail.com"><br><br>
+
+<label for="sid"><b>Student ID</b></label><br><br>
+<input type="text" id="sid" placeholder="20131A1212"><br><br>
+<label for="sid"><b>List  of Classes</b></label><br><br>
+<select name="classes" id="classes">
+    <option value="">--Please Select--</option>
+    <option value="c1">Class - 1</option>
+    <option value="c2">Class - 2</option>
+    <option value="c3">Class - 3</option>
+    <option value="c4">Class - 4</option>
+    <option value="c5">Class - 5</option>
+</select>
+    <br><br>
+<button class="button">Submit</button>
+
+</fieldset>
+
+
+
+<h2 align="center">Event Registration Form</h2>
+<p>Please fill out the form below to register for the event</p>
+<fieldset>
+    <legend>Event Registration</legend>
+<label for="name"><b>First Name</b></label><br><br>
+<input type="text" id="name" placeholder="John" autofocus><br><br>
+<label for="name"><b>Last name</b></label><br><br>
+<input type="text" id="name" placeholder="Doe"><br><br>
+
+<label for="number"><b>Phone Number</b></label><br><br>
+<input type="text" id="number" placeholder="+91 (123) 567-897"><br><br>
+<label for="country"><b>Country</b></label><br><br>
+<select name="country" id="country">
+    <option value="">--Select Country--</option>
+    <option value="India">India</option>
+    <option value="India">Russia</option>
+    <option value="India">United-States</option>
+    <option value="India">Nepal</option>
+    <option value="India">Bangladesh</option>
+</select><br><br>
+<label for="dob"><b>Date of Birth</b></label><br><br>
+<input type="date" id="dob"><br><br>
+ <label for="size"><b>T-Shirt Size</b></label><br><br>
+ <input type="checkbox" id="small">
+ <label for="small">Small</label>
+ <input type="checkbox" id="medium">
+ <label for="medium">Medium</label><br><br>
+ <input type="checkbox" id="large">
+ <label for="large">Large</label>
+ <input type="checkbox" id="extra-large">
+ <label for="extra-large">Extra Large</label>
+ <h2>Emergency Contact Information</h2>
+ <label for="cname"><b>Emergency Contact Name</b></label><br><br>
+ <input type="text" id="cname" placeholder="jane Smith"><br><br>
+ <label for="cname"><b>Emergency Contact Phone Number</b></label><br><br>
+ <input type="text" id="cname" placeholder="+91 (555) 123 - 4567"><br><br>
+ 
+ <input type="checkbox">
+ <label for="checkbox">I agree to the terms and conditions of this event</label><br><br>
+ <button class="button">Register Now</button><br><br>
+ </fieldset>
+</body>
+ </html>
